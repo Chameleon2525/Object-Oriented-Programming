@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d04bb2e5-35bd-441a-b787-0b359121f8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{4421f316-61c3-419d-8c18-5914bdf96df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BMP">
+      <UniqueIdentifier>{eb9ff2f7-0cbf-4b78-b2e9-7dd12dc92a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HAL">
+      <UniqueIdentifier>{63356fce-6433-42ae-8db8-d77c3b9bf270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PortAudio">
+      <UniqueIdentifier>{caab6a7e-6b8c-4795-b8bd-d3738a51c4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PortMidi">
+      <UniqueIdentifier>{7150ca8f-51ae-4ccf-a16a-af6c226c91bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WavFile">
+      <UniqueIdentifier>{2e7d9299-6adc-40a6-a68b-f0c6569dacc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Version.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="midi.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="playWavFile.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="sine.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBMP.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_BMP.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_DataStructures.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_Font.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_Geometry.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBMP_VariousBMPutilities.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="HALBitmap.h">
+      <Filter>Source\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="HAL_Utilities.h">
+      <Filter>Source\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_host.h">
+      <Filter>Source\PortAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="pa_trace.h">
+      <Filter>Source\PortAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="portaudio.h">
+      <Filter>Source\PortAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="pminternal.h">
+      <Filter>Source\PortMidi</Filter>
+    </ClInclude>
+    <ClInclude Include="pmutil.h">
+      <Filter>Source\PortMidi</Filter>
+    </ClInclude>
+    <ClInclude Include="pmwinmm.h">
+      <Filter>Source\PortMidi</Filter>
+    </ClInclude>
+    <ClInclude Include="portmidi.h">
+      <Filter>Source\PortMidi</Filter>
+    </ClInclude>
+    <ClInclude Include="porttime.h">
+      <Filter>Source\PortMidi</Filter>
+    </ClInclude>
+    <ClInclude Include="Wavfile\DataHeader.h">
+      <Filter>Source\WavFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Wavfile\FileHeader.h">
+      <Filter>Source\WavFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Wavfile\FormatHeader.h">
+      <Filter>Source\WavFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Wavfile\WavFile.h">
+      <Filter>Source\WavFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Timeclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="midi.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="playWavFile.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="sine.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBMP.cpp">
+      <Filter>Source\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBMP.cpp">
+      <Filter>Source\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="HALBitmap.cpp">
+      <Filter>Source\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="HAL_Utilities.cpp">
+      <Filter>Source\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="pa_convert.c">
+      <Filter>Source\PortAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="pa_lib.c">
+      <Filter>Source\PortAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="pa_trace.c">
+      <Filter>Source\PortAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="pa_win_wmme.c">
+      <Filter>Source\PortAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="pmwin.c">
+      <Filter>Source\PortMidi</Filter>
+    </ClCompile>
+    <ClCompile Include="pmwinmm.c">
+      <Filter>Source\PortMidi</Filter>
+    </ClCompile>
+    <ClCompile Include="portmidi.c">
+      <Filter>Source\PortMidi</Filter>
+    </ClCompile>
+    <ClCompile Include="porttime.c">
+      <Filter>Source\PortMidi</Filter>
+    </ClCompile>
+    <ClCompile Include="ptwinmm.c">
+      <Filter>Source\PortMidi</Filter>
+    </ClCompile>
+    <ClCompile Include="Wavfile\DataHeader.cpp">
+      <Filter>Source\WavFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Wavfile\FileHeader.cpp">
+      <Filter>Source\WavFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Wavfile\FormatHeader.cpp">
+      <Filter>Source\WavFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Wavfile\WavFile.cpp">
+      <Filter>Source\WavFile</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Task 1.cpp" />
+  </ItemGroup>
+</Project>
